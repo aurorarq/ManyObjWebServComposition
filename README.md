@@ -41,24 +41,106 @@ These files contain the mean and standard deviation of the QoS values of the sol
 
 #### **Experiment #1**
 
-_Friedman and Holm tests_ Comparison of the algorithms in terms of hypervolume
+_Friedman and Holm tests_
 
-Friedman test: Iman and Davenport statistic considering reduction performance (distributed according to F-distribution with 7 and 98 degrees of freedom): 63.1879 Critical value at the significance level (alpha=0.01): 2.8272 Holm test: Holm test rejects those hypothesis that have a p-value < 0.025. Comparison of the algorithms in terms of spacing
+1) Comparison of the algorithms in terms of hypervolume
 
+| i   | Algorithm         | Ranking         | z | p | alpha/i | Hypothesis|
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| 7 | NSGA-III | 8.000 | 7.3790 |  1.5945E-13 | 0.0071 | Rejected |
+| 6 | SPEA2 | 6.1333 | 5.2920 | 1.2097E-07 | 0.0083 | Rejected |
+| 5 | GrEA | 6.0000 | 5.1430 | 2.7045E-07 | 0.0100 | Rejected |
+| 4 | MOEA/D | 4.8000 | 3.8013 | 1.4393E-04 | 0.0125 | Rejected |
+| 3| IBEA | 4.2667 | 3.2050 | 1.3505E-03  | 0.0167 | Rejected |
+| 2 | NSGA-II | 3.4000 | 2.2361 | 2.5347E-02 | 0.0250 | Accepted |
+| 1 | HypE | 2.0000 | 0.6708 | 5.0233E-01  | 0.0500 | Accepted |
+| 0 | eMOEA | 1.4000 | - |  - | - | - |
 
-Friedman test: Iman and Davenport statistic considering reduction performance (distributed according to F-distribution with 7 and 98 degrees of freedom): 202.1765 Critical value at the significance level (alpha=0.01): 2.8272 Holm test: Holm test rejects those hypothesis that have a p-value < 0.025. _Cliff's Delta test (effect size)_ Cliff's Delta test results in raw format:
+```
+Friedman test: Iman and Davenport statistic considering reduction performance (distributed according to F-distribution with 7 and 98 degrees of freedom): 63.1879 
+
+Critical value at the significance level (alpha=0.01): 2.8272 
+
+Holm test: Holm test rejects those hypothesis that have a p-value < 0.025.
+```
+
+2) Comparison of the algorithms in terms of spacing
+
+| i   | Algorithm         | Ranking         | z | p | alpha/i | Hypothesis|
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| 7 | IBEA | 8.0000 | 7.8262 | 5.0269E-15  | 0.0071 | Rejected |
+| 6 | HypE | 6.5333 | 6.1865 | 6.1532E-10  | 0.0083 | Rejected |
+| 5 | GrEA | 6.4000  | 6.0374 | 1.5663E-09  | 0.0100 | Rejected |
+| 4 | NSGA-III | 4.7333 | 4.1740 | 2.9931E-05 | 0.0125 | Rejected |
+| 3| eMOEA | 4.0000 | 3.3541 |  7.9623E-04 | 0.0167 | Rejected |
+| 2 | SPEA2 | 2.7333 | 1.9379 | 5.2632E-02  | 0.0250 | Accepted |
+| 1 | MOEA/D| 2.6000 | 1.7889 | 7.3638E-02  | 0.0500 | Accepted |
+| 0 | NSGA-II | 1.0000 | - |  - | - | - |
+
+```
+Friedman test: Iman and Davenport statistic considering reduction performance (distributed according to F-distribution with 7 and 98 degrees of freedom): 202.1765
+
+Critical value at the significance level (alpha=0.01): 2.8272
+
+Holm test: Holm test rejects those hypothesis that have a p-value < 0.025.
+```
+
+_Cliff's Delta test (effect size)_
+
+Cliff's Delta test results in raw format:
 
 *   [Hypervolume](/tests/rprsr15-effectsize-experiment1-hv.txt)
 *   [Spacing](/tests/rprsr15-effectsize-experiment1-s.txt) 
 
 #### **Experiment #2**
 
-_Friedman and Holm tests_ Comparison of the algorithms in terms of hypervolume
+_Friedman and Holm tests_ 
 
+1) Comparison of the algorithms in terms of hypervolume
 
-Friedman test: Iman and Davenport statistic considering reduction performance (distributed according to F-distribution with 7 and 308 degrees of freedom): 220.9533 Critical value at the significance level (alpha=0.01): 2.6977 Holm test: Holm test rejects those hypothesis that have a p-value < 0.05. Comparisons of the algorithms in terms of spacing
+| i   | Algorithm         | Ranking         | z | p | alpha/i | Hypothesis|
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| 7 | NSGA-III | 8.0000 | 12.4366 | 1.6544E-35  | 0.071 | Rejected |
+| 6 | SPEA2 | 6.4222 | 9.3812 | 6.5210E-21 | 0.0083 | Rejected |
+| 5 | GrEA | 5.7778 | 8.1333 | 4.1788E-16 | 0.0100 | Rejected |
+| 4 | IBEA | 4.6667 | 5.9816 | 2.2095E-09 | 0.0125 | Rejected |
+| 3| MOEA/D | 4.6444 | 5.9386 | 2.8751E-09 | 	0.0167 | Rejected |
+| 2 | NSGA-II |	2.9556 | 2.6681 | 7.6292E-03 | 0.0250 | Rejected |
+| 1 | HypE | 1.9556 | 0.7316 | 4.6444E-01 | 0.0500  | Accepted |
+| 0 | eMOEA | 1.5778 | - |  - | - | - |
 
-Friedman test: Iman and Davenport statistic considering reduction performance (distributed according to F-distribution with 7 and 98 degrees of freedom): 453.6330 Critical value at the significance level (alpha=0.01): 2.6977 Holm test: Holm test rejects all the hypotheses. _Cliff's Delta test (effect size)_ Cliff's Delta test results in raw format:
+```
+Friedman test: Iman and Davenport statistic considering reduction performance (distributed according to F-distribution with 7 and 308 degrees of freedom): 220.9533
+
+Critical value at the significance level (alpha=0.01): 2.6977
+
+Holm test: Holm test rejects those hypothesis that have a p-value < 0.05.
+```
+
+2) Comparisons of the algorithms in terms of spacing
+
+| i   | Algorithm         | Ranking         | z | p | alpha/i | Hypothesis|
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| 7 | IBEA | 8.0000 | 13.5554 | 7.3568E-42  | 0.0071 | Rejected |
+| 6 | HypE | 6.6222 | 10.8874 | 5.2671E-25 | 0.0083 | Rejected |
+| 5 | GrEA | 6.3333 | 10.3280 | 5.2671E-25  | 0.0100 | Rejected |
+| 4 | NSGA-III | 4.3333 | 6.4550 | 1.0824E-10 | 0.0125 | Rejected |
+| 3| eMOEA | 3.9778 | 5.7664 | 8.0963E-09  | 0.0167 | Rejected |
+| 2 | SPEA2 | 3.2444 | 4.3463 | 1.3842E-05 | 0.0250 | Rejected |
+| 1 | MOEA/D | 2.4889 | 2.8832 | 3.9363E-03 | 0.0500 | Rejected |
+| 0 | NSGA-II |	1.0000  | - |  - | - | - |
+
+```
+Friedman test: Iman and Davenport statistic considering reduction performance (distributed according to F-distribution with 7 and 98 degrees of freedom): 453.6330
+
+Critical value at the significance level (alpha=0.01): 2.6977
+
+Holm test: Holm test rejects all the hypotheses.
+```
+
+_Cliff's Delta test (effect size)_
+
+Cliff's Delta test results in raw format:
 
 *   [Hypervolume](/tests/rprsr15-effectsize-experiment2-hv.txt)
 *   [Spacing](/tests/rprsr15-effectsize-experiment2-s.txt)
