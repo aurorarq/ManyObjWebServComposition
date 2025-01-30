@@ -1,0 +1,616 @@
+[1] "SPEA2 vs NSGA.II"
+
+Cliff's Delta
+
+delta estimate: -0.8933333 (large)
+99 percent confidence interval:
+       inf        sup 
+-0.9859332 -0.3811239 
+
+
+
+[1] "SPEA2 vs MOEA.D"
+
+Cliff's Delta
+
+delta estimate: -0.3965432 (medium)
+99 percent confidence interval:
+        inf         sup 
+-0.64527502 -0.07179711 
+
+
+
+[1] "SPEA2 vs eMOEA"
+
+Cliff's Delta
+
+delta estimate: 0.09530864 (negligible)
+99 percent confidence interval:
+       inf        sup 
+-0.2243903  0.3964856 
+
+
+
+[1] "SPEA2 vs GrEA"
+
+Cliff's Delta
+
+delta estimate: 0.9777778 (large)
+99 percent confidence interval:
+inf sup 
+NaN NaN 
+
+
+
+[1] "SPEA2 vs IBEA"
+
+Cliff's Delta
+
+delta estimate: 0.9777778 (large)
+99 percent confidence interval:
+inf sup 
+NaN NaN 
+
+
+
+[1] "SPEA2 vs HypE"
+
+Cliff's Delta
+
+delta estimate: 0.9758025 (large)
+99 percent confidence interval:
+inf sup 
+NaN NaN 
+
+
+
+[1] "SPEA2 vs NSGA.III"
+
+Cliff's Delta
+
+delta estimate: 0.3649383 (medium)
+99 percent confidence interval:
+       inf        sup 
+0.03095808 0.62561251 
+
+
+
+[1] "NSGA.II vs SPEA2"
+
+Cliff's Delta
+
+delta estimate: 0.8933333 (large)
+99 percent confidence interval:
+     inf      sup 
+0.708845 0.963424 
+
+
+
+[1] "NSGA.II vs MOEA.D"
+
+Cliff's Delta
+
+delta estimate: 0.8953086 (large)
+99 percent confidence interval:
+      inf       sup 
+0.7291268 0.9617902 
+
+
+
+[1] "NSGA.II vs eMOEA"
+
+Cliff's Delta
+
+delta estimate: 0.9407407 (large)
+99 percent confidence interval:
+      inf       sup 
+0.8173575 0.9816162 
+
+
+
+[1] "NSGA.II vs GrEA"
+
+Cliff's Delta
+
+delta estimate: 0.9777778 (large)
+99 percent confidence interval:
+inf sup 
+NaN NaN 
+
+
+
+[1] "NSGA.II vs IBEA"
+
+Cliff's Delta
+
+delta estimate: 0.9777778 (large)
+99 percent confidence interval:
+inf sup 
+NaN NaN 
+
+
+
+[1] "NSGA.II vs HypE"
+
+Cliff's Delta
+
+delta estimate: 0.9777778 (large)
+99 percent confidence interval:
+inf sup 
+NaN NaN 
+
+
+
+[1] "NSGA.II vs NSGA.III"
+
+Cliff's Delta
+
+delta estimate: 0.9348148 (large)
+99 percent confidence interval:
+      inf       sup 
+0.8134339 0.9781751 
+
+
+
+[1] "MOEA.D vs SPEA2"
+
+Cliff's Delta
+
+delta estimate: 0.3965432 (medium)
+99 percent confidence interval:
+       inf        sup 
+0.08385665 0.63813833 
+
+
+
+[1] "MOEA.D vs NSGA.II"
+
+Cliff's Delta
+
+delta estimate: -0.8953086 (large)
+99 percent confidence interval:
+       inf        sup 
+-0.9886104 -0.3048656 
+
+
+
+[1] "MOEA.D vs eMOEA"
+
+Cliff's Delta
+
+delta estimate: 0.3975309 (medium)
+99 percent confidence interval:
+       inf        sup 
+0.07889823 0.64246688 
+
+
+
+[1] "MOEA.D vs GrEA"
+
+Cliff's Delta
+
+delta estimate: 0.9777778 (large)
+99 percent confidence interval:
+inf sup 
+NaN NaN 
+
+
+
+[1] "MOEA.D vs IBEA"
+
+Cliff's Delta
+
+delta estimate: 0.9777778 (large)
+99 percent confidence interval:
+inf sup 
+NaN NaN 
+
+
+
+[1] "MOEA.D vs HypE"
+
+Cliff's Delta
+
+delta estimate: 0.9777778 (large)
+99 percent confidence interval:
+inf sup 
+NaN NaN 
+
+
+
+[1] "MOEA.D vs NSGA.III"
+
+Cliff's Delta
+
+delta estimate: 0.5397531 (large)
+99 percent confidence interval:
+      inf       sup 
+0.1984266 0.7643189 
+
+
+
+[1] "eMOEA vs SPEA2"
+
+Cliff's Delta
+
+delta estimate: -0.09530864 (negligible)
+99 percent confidence interval:
+       inf        sup 
+-0.3853730  0.2118972 
+
+
+
+[1] "eMOEA vs NSGA.II"
+
+Cliff's Delta
+
+delta estimate: -0.9407407 (large)
+99 percent confidence interval:
+        inf         sup 
+-0.99802278 -0.02978463 
+
+
+
+[1] "eMOEA vs MOEA.D"
+
+Cliff's Delta
+
+delta estimate: -0.3975309 (medium)
+99 percent confidence interval:
+        inf         sup 
+-0.64066814 -0.08193552 
+
+
+
+[1] "eMOEA vs GrEA"
+
+Cliff's Delta
+
+delta estimate: 0.9683951 (large)
+99 percent confidence interval:
+      inf       sup 
+0.8830339 0.9917336 
+
+
+
+[1] "eMOEA vs IBEA"
+
+Cliff's Delta
+
+delta estimate: 0.9777778 (large)
+99 percent confidence interval:
+inf sup 
+NaN NaN 
+
+
+
+[1] "eMOEA vs HypE"
+
+Cliff's Delta
+
+delta estimate: 0.9841975 (large)
+99 percent confidence interval:
+      inf       sup 
+0.9122558 0.9972392 
+
+
+
+[1] "eMOEA vs NSGA.III"
+
+Cliff's Delta
+
+delta estimate: 0.2 (small)
+99 percent confidence interval:
+       inf        sup 
+-0.1257019  0.4867828 
+
+
+
+[1] "GrEA vs SPEA2"
+
+Cliff's Delta
+
+delta estimate: -1 (large)
+99 percent confidence interval:
+inf sup 
+ -1   1 
+
+
+
+[1] "GrEA vs NSGA.II"
+
+Cliff's Delta
+
+delta estimate: -1 (large)
+99 percent confidence interval:
+inf sup 
+ -1   1 
+
+
+
+[1] "GrEA vs MOEA.D"
+
+Cliff's Delta
+
+delta estimate: -1 (large)
+99 percent confidence interval:
+inf sup 
+ -1   1 
+
+
+
+[1] "GrEA vs eMOEA"
+
+Cliff's Delta
+
+delta estimate: -0.9683951 (large)
+99 percent confidence interval:
+       inf        sup 
+-0.9997589  0.3627282 
+
+
+
+[1] "GrEA vs IBEA"
+
+Cliff's Delta
+
+delta estimate: 0.9338272 (large)
+99 percent confidence interval:
+      inf       sup 
+0.8081617 0.9781682 
+
+
+
+[1] "GrEA vs HypE"
+
+Cliff's Delta
+
+delta estimate: 0.1130864 (negligible)
+99 percent confidence interval:
+       inf        sup 
+-0.1999367  0.4051634 
+
+
+
+[1] "GrEA vs NSGA.III"
+
+Cliff's Delta
+
+delta estimate: -0.9041975 (large)
+99 percent confidence interval:
+       inf        sup 
+-0.9934926 -0.1264951 
+
+
+
+[1] "IBEA vs SPEA2"
+
+Cliff's Delta
+
+delta estimate: -1 (large)
+99 percent confidence interval:
+inf sup 
+ -1   1 
+
+
+
+[1] "IBEA vs NSGA.II"
+
+Cliff's Delta
+
+delta estimate: -1 (large)
+99 percent confidence interval:
+inf sup 
+ -1   1 
+
+
+
+[1] "IBEA vs MOEA.D"
+
+Cliff's Delta
+
+delta estimate: -1 (large)
+99 percent confidence interval:
+inf sup 
+ -1   1 
+
+
+
+[1] "IBEA vs eMOEA"
+
+Cliff's Delta
+
+delta estimate: -1 (large)
+99 percent confidence interval:
+inf sup 
+ -1   1 
+
+
+
+[1] "IBEA vs GrEA"
+
+Cliff's Delta
+
+delta estimate: -0.9338272 (large)
+99 percent confidence interval:
+        inf         sup 
+-0.99735061 -0.06228237 
+
+
+
+[1] "IBEA vs HypE"
+
+Cliff's Delta
+
+delta estimate: -0.9032099 (large)
+99 percent confidence interval:
+       inf        sup 
+-0.9919028 -0.2223135 
+
+
+
+[1] "IBEA vs NSGA.III"
+
+Cliff's Delta
+
+delta estimate: -0.9930864 (large)
+99 percent confidence interval:
+       inf        sup 
+-0.9999978  0.8316824 
+
+
+
+[1] "HypE vs SPEA2"
+
+Cliff's Delta
+
+delta estimate: -0.9960494 (large)
+99 percent confidence interval:
+       inf        sup 
+-0.9996669 -0.9540522 
+
+
+
+[1] "HypE vs NSGA.II"
+
+Cliff's Delta
+
+delta estimate: -1 (large)
+99 percent confidence interval:
+inf sup 
+ -1   1 
+
+
+
+[1] "HypE vs MOEA.D"
+
+Cliff's Delta
+
+delta estimate: -1 (large)
+99 percent confidence interval:
+inf sup 
+ -1   1 
+
+
+
+[1] "HypE vs eMOEA"
+
+Cliff's Delta
+
+delta estimate: -0.9841975 (large)
+99 percent confidence interval:
+       inf        sup 
+-0.9999657  0.5741630 
+
+
+
+[1] "HypE vs GrEA"
+
+Cliff's Delta
+
+delta estimate: -0.1130864 (negligible)
+99 percent confidence interval:
+       inf        sup 
+-0.4106334  0.2062278 
+
+
+
+[1] "HypE vs IBEA"
+
+Cliff's Delta
+
+delta estimate: 0.9032099 (large)
+99 percent confidence interval:
+      inf       sup 
+0.7464121 0.9649999 
+
+
+
+[1] "HypE vs NSGA.III"
+
+Cliff's Delta
+
+delta estimate: -0.9249383 (large)
+99 percent confidence interval:
+       inf        sup 
+-0.9958879 -0.1507243 
+
+
+
+[1] "NSGA.III vs SPEA2"
+
+Cliff's Delta
+
+delta estimate: -0.3649383 (medium)
+99 percent confidence interval:
+        inf         sup 
+-0.62119193 -0.03818008 
+
+
+
+[1] "NSGA.III vs NSGA.II"
+
+Cliff's Delta
+
+delta estimate: -0.9348148 (large)
+99 percent confidence interval:
+        inf         sup 
+-0.99759340 -0.02978374 
+
+
+
+[1] "NSGA.III vs MOEA.D"
+
+Cliff's Delta
+
+delta estimate: -0.5397531 (large)
+99 percent confidence interval:
+       inf        sup 
+-0.7648736 -0.1971435 
+
+
+
+[1] "NSGA.III vs eMOEA"
+
+Cliff's Delta
+
+delta estimate: -0.2 (small)
+99 percent confidence interval:
+       inf        sup 
+-0.4842118  0.1223897 
+
+
+
+[1] "NSGA.III vs GrEA"
+
+Cliff's Delta
+
+delta estimate: 0.9041975 (large)
+99 percent confidence interval:
+      inf       sup 
+0.6916779 0.9726043 
+
+
+
+[1] "NSGA.III vs IBEA"
+
+Cliff's Delta
+
+delta estimate: 0.9930864 (large)
+99 percent confidence interval:
+      inf       sup 
+0.9403180 0.9992179 
+
+
+
+[1] "NSGA.III vs HypE"
+
+Cliff's Delta
+
+delta estimate: 0.9249383 (large)
+99 percent confidence interval:
+      inf       sup 
+0.7120474 0.9820808 
+
+
+
